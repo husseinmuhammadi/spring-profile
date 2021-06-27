@@ -5,17 +5,28 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.juvastudio.tuorial</groupId>
+        <groupId>com.javastudio.tutorial</groupId>
         <artifactId>spring-profile-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>spring-profile-overview</artifactId>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>spring-logger</artifactId>
+            <version>${project.version}</version>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 </project>

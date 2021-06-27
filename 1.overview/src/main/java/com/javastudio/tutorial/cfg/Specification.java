@@ -8,10 +8,4 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("classpath:specification.properties")
 public class Specification {
 
-    @Value("${design.brand}")
-    private String brand;
-
-    public String getBrand() {
-        return brand;
-    }
 }
