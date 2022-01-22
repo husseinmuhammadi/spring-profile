@@ -18,5 +18,4 @@ class StageConfigurationTest {
     void givenStageProfile_whenCreateConfigurationBean_thenActiveProfileIsStage() {
         assertEquals(configuration.getActiveProfile(), "stage");
     }
-
 }
