@@ -21,7 +21,6 @@
     </properties>
 
     <modules>
-        <module>logger</module>
         <module>1.overview</module>
     </modules>
 
