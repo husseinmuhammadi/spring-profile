@@ -22,6 +22,7 @@
 
     <modules>
         <module>1.overview</module>
+        <module>2.configuration</module>
     </modules>
 
     <dependencies>

@@ -1,0 +1,10 @@
+email:
+  smtp:
+    host: smtp.gmail.com
+    port: 465
+    ssl:
+      enable: true
+    auth: true
+    from: fromaddress@gmail.com
+    to: toaddress@gmail.com
+
